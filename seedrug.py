@@ -31,7 +31,7 @@ for n in list_of_report:
 avg3 = makeAvg(ageRange1217mari)
 mari.append(avg3)
 
-print(mari)
+print("marijuana use in past month, ages 26+, 18-25, 12-17 respectively: " + str(mari))
 
 
 alc = []
@@ -53,7 +53,7 @@ for n in list_of_report:
 avg6 = makeAvg(ageRange1217alc)
 alc.append(avg6)
 
-print(alc)
+print("alcohol use in past month, ages 26+, 18-25, 12-17 respectively: " + str(alc))
 
 
 tob = []
@@ -75,7 +75,7 @@ for n in list_of_report:
 avg9 = makeAvg(ageRange1217tob)
 tob.append(avg9)
 
-print(tob)
+print("tobacco use in past month, ages 26+, 18-25, 12-17 respectively: " + str(tob))
 
 
 ill= []
@@ -97,7 +97,7 @@ for n in list_of_report:
 avg12 = makeAvg(ageRange1217ill)
 ill.append(avg12)
 
-print(ill)
+print("illicit drug use in past month, ages 26+, 18-25, 12-17 respectively: " + str(ill))
 
 total = [mari, alc, tob, ill]
 
